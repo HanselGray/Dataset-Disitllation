@@ -11,7 +11,6 @@ The goal of this project is to **test, evaluate, and improve coreset distillatio
 - Implementation of various coreset selection strategies
 - Support for the **CIC IoT 2023** dataset (Canadian Institute for Cybersecurity)
 - Evaluation of coreset quality in the context of **anomaly and intrusion detection**
-- Integration with popular deep learning frameworks (e.g., PyTorch, TensorFlow)
 - Reproducible experiment scripts and configurations
 
 ## 🛠 Techniques Explored
@@ -23,7 +22,7 @@ The goal of this project is to **test, evaluate, and improve coreset distillatio
 - Submodular Optimization
 
 ## 📝 NOTES: 
--Dataset in use: [CIC IOT 2023](https://www.unb.ca/cic/datasets/iotdataset-2023.html), or you can use the version with balanced sample counts under `Dataset_distilled` folder
+- Dataset in use: [CIC IOT 2023](https://www.unb.ca/cic/datasets/iotdataset-2023.html), or you can use the version with balanced sample counts under `Dataset_distilled` folder
 Except for the baseline version (base_line_traditional_machine_learning.ipynb) , all further training used the distilled feature version of the original dataset under `Dataset_distilled` folder
 
 ## 📁 Directory Structure
