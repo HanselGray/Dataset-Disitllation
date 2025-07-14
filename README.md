@@ -28,8 +28,8 @@ Except for the baseline version (base_line_traditional_machine_learning.ipynb) ,
 
 ## 📁 Directory Structure
 - [Dataset-distilled](/Dataset_distilled) : contains 2 version of the original dataset, `dataset.csv` is the one with balanced sample count across classes and `dataset_distilled.csv` is the one with reduced feature set using feature selection based on importance.
-- feature_selection.ipynb : using the feature-distilled dataset based on features' importance to reduce the dimension of the feature set.
-- Instance_selection_KNN.ipynb : using K-Center approach to select the X nearest samples to the centroid of each class.
-- distribution_matching_GaussianMixture.ipynb : using Gaussian Mixture to synthesize new samples with reduced count but aims to retains the same amount of knowledge.
-- PCA.ipynb : using principle component analysis technique to further reduce the feature set.
+- [feature_selection.ipynb](feature_selection.ipynb) : using the feature-distilled dataset based on features' importance to reduce the dimension of the feature set.
+- [Instance_selection_KNN.ipynb](Instance_selection_KNN.ipynb) : using K-Center approach to select the X nearest samples to the centroid of each class.
+- [distribution_matching_GaussianMixture.ipynb](distribution_matching_GaussianMixture.ipynb) : using Gaussian Mixture to synthesize new samples with reduced count but aims to retains the same amount of knowledge.
+- [PCA.ipynb](PCA.ipynb) : using principle component analysis technique to further reduce the feature set.
 - GAN.ipynb : not working, sad 😭
