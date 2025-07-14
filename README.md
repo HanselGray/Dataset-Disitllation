@@ -27,7 +27,7 @@ The goal of this project is to **test, evaluate, and improve coreset distillatio
 Except for the baseline version (base_line_traditional_machine_learning.ipynb) , all further training used the distilled feature version of the original dataset under `Dataset_distilled` folder
 
 ## 📁 Directory Structure
-- [](/Dataset_distilled) : contains 2 version of the original dataset, `dataset.csv` is the one with balanced sample count across classes and `dataset_distilled.csv` is the one with reduced feature set using feature selection based on importance.
+- [Dataset-distilled](/Dataset_distilled) : contains 2 version of the original dataset, `dataset.csv` is the one with balanced sample count across classes and `dataset_distilled.csv` is the one with reduced feature set using feature selection based on importance.
 - feature_selection.ipynb : using the feature-distilled dataset based on features' importance to reduce the dimension of the feature set.
 - Instance_selection_KNN.ipynb : using K-Center approach to select the X nearest samples to the centroid of each class.
 - distribution_matching_GaussianMixture.ipynb : using Gaussian Mixture to synthesize new samples with reduced count but aims to retains the same amount of knowledge.
